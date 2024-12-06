@@ -12,7 +12,7 @@
 
  ## Install
    ### Jouer directement en ligne 
- Vous pouvez jouer à notre jeu directement en ligne en visitant notre page [GitHub Pages](https://votre-nom-d-utilisateur.github.io/votre-dépôt
+ Vous pouvez jouer à notre jeu directement en ligne en visitant notre page [GitHub Pages](https://Cabiora.github.io/Number-games2)
 
  ## Usage
  1- How to play?
