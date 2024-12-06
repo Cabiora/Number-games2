@@ -11,7 +11,8 @@
  - Feature 5: Limited trials
 
  ## Install
- 
+   ### Jouer directement en ligne 
+ Vous pouvez jouer à notre jeu directement en ligne en visitant notre page [GitHub Pages](https://votre-nom-d-utilisateur.github.io/votre-dépôt
 
  ## Usage
  1- How to play?
@@ -23,8 +24,6 @@
    a) Limited trials 
     
   The trial counter is limited. Depending on the chosen difficulty, you will have 5 trials for the easy level, 3 for the medium level, 2 for the difficult level and 1 for the extreme level.
-
-[Voir la page principale du projet]()
 
  ## Contributors
  - Beldor Valeria, @Valkiree 1- Role (Frontend Developer)
