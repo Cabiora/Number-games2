@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de devine de Nombre</title>
+    <link href="game.css" rel="stylesheet">
+</head>
+<body> 
+    <div class="container">
+        <h1>Devine le Nombre</h1>
+        <p id="gameDescription"></p>
+        <input type="number" id="guess" placeholder="Entrez votre supposition" />
+        <button onclick="checkGuess()">Deviner</button>
+        <p id="message"></p>
+        <p id="attemptsCounter"></p>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>

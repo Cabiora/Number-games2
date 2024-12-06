@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Over</title>
+  <link rel="stylesheet" href="Gameover.css">
+</head>
+  <body>
+   <div class="game-over">
+     <h1>GAME OVER</h1>
+     <p>Le nombre était: <span id="number"></span></p> 
+     <p>Nombre d'essais: <span id="attempts"></span></p>
+     <button onclick="restartGame()">Recommencer une nouvelle partie</button>
+     <button onclick="goToHomepage()">Retourner à la page d'accueil</button>
+    </div>
+
+    <script>
+      document.getElementById('number').textContent = localStorage.getItem('randomNumber');
+      document.getElementById('attempts').textContent = localStorage.getItem('maxAttempts');
+     
+      function restartGame() { 
+               localStorage.removeItem('randomNumber'); 
+               window.location.href = 'game.html'; 
+            }
+
+            function goToHomepage() { 
+                localStorage.removeItem('randomNumber'); 
+                window.location.href = 'Number-games.html';
+            }
+    </script>
+  </body>
+</html>

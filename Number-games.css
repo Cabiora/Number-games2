@@ -1,0 +1,60 @@
+/* Style général */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #4caf50, #333f34, #a38531);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+  }
+  
+  /* Conteneur principal */
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin: 20px 0;
+    border: 2px solid #fff;
+    padding: 10px;
+  }
+  
+  .description, .instructions {
+    text-align: center;
+    margin: 10px auto;
+    width: 80%;
+  }
+  
+  .difficulty-container {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px auto;
+    width: 50%;
+  }
+  
+  button {
+    background-color: #2196f3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #1976d2;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head> 
+    <meta charset="UTF-8">
+      <meta name="viewport"
+    content="width=device-width,initial-scale=1.0">
+    <title>Accueil du Number game</title>
+    <link href="Number-games.css" rel="Stylesheet">
+  </head>
+  <body> 
+    <header> 
+      <h1>Bienvenue sur Le Number-games </h1>
+    </header>
+<div class="container">
+  <p class="description">
+Bienvenue dans le jeu de nombres ! Devinez le bon nombre avec le moins de tentatives possible.
+  </p>
+  <p class="instructions">
+    Le jeu vous demandera de deviner un nombre compris dans une plage donnée. À chaque essai, vous recevrez un indice pour savoir si le nombre que vous avez choisi est trop grand ou trop petit ou si ce nombre doit être paire ou impair. Essayez de deviner le bon nombre en un minimum d'essais
+  </p>
+  <label for="difficulty">Choisissez votre niveau de difficulté :</label> 
+  <select id="difficulty"> 
+    <option value="100">Facile (1-100)</option> 
+    <option value="300">Moyen (1-300)</option> 
+    <option value="500">Difficile (1-500)</option> 
+    <option value="10000">Expert (1-10000)</option> 
+  </select>
+  <button class="start-button" onclick="startGame()">Commencer le jeu</button>
+</div>
+<footer>
+  <p>&copy;2024 Number-games. Tous droits réservés</p>
+</footer>
+    <script src="Number-games.js"></script>
+  </body>
+</html>
